@@ -49,6 +49,7 @@ My image of both 9 and 10 is ![here](Test.png)
 
 11.  What category of Exceptions is TimerException and what is NullPointerException
 
+Both of these are unchecked exceptions.
 
 
 12.  Push the updated/fixed source code to your own repository.
