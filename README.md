@@ -14,11 +14,15 @@ It asserts that calling a specific method throws an exception. If it does not th
 
 4.  See TimerException and there are 3 questions
     1.  What is serialVersionUID and why do we need it? (please read on Internet)
+   
 	serialVersionUID is a unique identifier for a version of a class. It is used when serializing a class, to ensure that the classes are in synchronization.
+	
     2.  Why do we need to override constructors?
+
 	For this, we need to override the constructor in order to call the super() constructor, which would initialize all the data to sane values. If we didn't override the TimerException(String) constructor, it wouldn't know to call the super(String) constructor.
 
     3.  Why we did not override other Exception methods?
+    
 	We didn't need to override other methods because we didn't need to augment their functionality.	
 
 5.  The Timer.java has a static block static {}, what does it do? (determine when called by debugger)
@@ -27,7 +31,7 @@ It asserts that calling a specific method throws an exception. If it does not th
 
 6.  What is README.md file format how is it related to bitbucket? (https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
 
-The README.md is a markdown-formatted file containing important information about a project. Traditionally, it is used in Git repos to describe the project.
+	The README.md is a markdown-formatted file containing important information about a project. Traditionally, it is used in Git repos to describe the project.
 
 7.  Why is the test failing? what do we need to change in Timer? (fix that all tests pass and describe the issue)
 
@@ -39,6 +43,13 @@ The README.md is a markdown-formatted file containing important information abou
 
 9.  Make a printScreen of your eclipse JUnit5 plugin run (JUnit window at the bottom panel) 
 10.  Make a printScreen of your eclipse Maven test run, with console
+
+My image of both 9 and 10 is ![here](Test.png)
+
+
 11.  What category of Exceptions is TimerException and what is NullPointerException
+
+
+
 12.  Push the updated/fixed source code to your own repository.
 	Done
